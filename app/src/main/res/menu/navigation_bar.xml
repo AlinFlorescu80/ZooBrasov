@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+    <item android:title="Mamifere"
+        android:icon="@drawable/ic_baseline_format_align_left_24"
+        android:id="@+id/mamifer"
+        />
+    <item android:title="Păsari"
+        android:icon="@drawable/ic_baseline_format_align_center_24"
+        android:id="@+id/bird"
+        />
+    <item android:title="Pești"
+        android:icon="@drawable/ic_baseline_format_align_center_24"
+        android:id="@+id/fish"
+        />
+    <item android:title="Reptile"
+        android:icon="@drawable/ic_baseline_format_align_right_24"
+        android:id="@+id/reptila"
+        />
+</group>
+</menu>

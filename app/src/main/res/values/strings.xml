@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">zoobrasov</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="informatii">Informații</string>
+    <string name="animale">Animale</string>
+    <string name="quiz">Quiz</string>
+    <string name="hart">hartă</string>
+</resources>

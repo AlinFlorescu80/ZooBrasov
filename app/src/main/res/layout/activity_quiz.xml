@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5AA8AF"
+    tools:context=".Quiz">
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/intrebariTotale"
+        android:text="Întrebari: 5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@id/intrebari"
+
+        />
+
+
+    <TextView
+        android:id="@+id/intrebari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/layoutSelectat"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="This will be the question"
+        android:textAlignment="center"
+        android:textColor="#E2F0CB"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutSelectat"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rasp_A"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="#E8E8E8"
+            android:text="raspuns A"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rasp_B"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="#E8E8E8"
+            android:text="raspuns B"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rasp_C"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="#E8E8E8"
+            android:text="raspuns C"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rasp_D"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="#E8E8E8"
+            android:text="raspuns D"
+            android:textColor="@color/black"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutSelectat"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#29CE6D"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:text="Trimite răspuns"
+        android:textColor="@color/white"/>
+
+
+
+</RelativeLayout>
